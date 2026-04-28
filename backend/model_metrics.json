@@ -1,0 +1,56 @@
+{
+  "best_model": "Logistic Regression",
+  "accuracy": 0.4682,
+  "f1_weighted": 0.4704,
+  "auc_roc": 0.6669,
+  "cv_accuracy": 0.4985,
+  "classes": [
+    "Fatal Injury",
+    "Serious Injury",
+    "Slight Injury"
+  ],
+  "confusion_matrix": [
+    [
+      541,
+      381,
+      339
+    ],
+    [
+      229,
+      283,
+      204
+    ],
+    [
+      92,
+      83,
+      345
+    ]
+  ],
+  "all_models": {
+    "Random Forest": {
+      "accuracy": 0.4333,
+      "f1": 0.4378,
+      "auc": 0.6079
+    },
+    "Gradient Boosting": {
+      "accuracy": 0.4569,
+      "f1": 0.4607,
+      "auc": 0.6406
+    },
+    "Logistic Regression": {
+      "accuracy": 0.4682,
+      "f1": 0.4704,
+      "auc": 0.6669
+    },
+    "Decision Tree": {
+      "accuracy": 0.4145,
+      "f1": 0.4175,
+      "auc": 0.6032
+    },
+    "XGBoost": {
+      "accuracy": 0.4565,
+      "f1": 0.46,
+      "auc": 0.6476
+    }
+  }
+}

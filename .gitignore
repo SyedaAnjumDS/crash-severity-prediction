@@ -1,0 +1,16 @@
+# Python
+backend/__pycache__/
+backend/venv/
+backend/*.pyc
+backend/dataset3_augmented.csv
+backend/confusion_matrix.png
+backend/model_comparison.png
+backend/feature_importances.png
+
+# Frontend
+frontend/node_modules/
+frontend/dist/
+
+# OS
+.DS_Store
+Thumbs.db
